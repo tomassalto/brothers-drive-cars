@@ -1,0 +1,22 @@
+{
+  "brands": [
+    { "id": 1, "brand": "Ford", "image": "icons/brands/ford.svg" },
+    { "id": 2, "brand": "Hyundai", "image": "icons/brands/hyundai.svg" },
+    { "id": 3, "brand": "Nissan", "image": "icons/brands/nissan.svg" },
+    { "id": 4, "brand": "Toyota", "image": "icons/brands/toyota.svg" },
+    { "id": 5, "brand": "Fiat", "image": "icons/brands/fiat.svg" },
+    { "id": 6, "brand": "Renault", "image": "icons/brands/renault.svg" },
+    { "id": 7, "brand": "Citroen", "image": "icons/brands/citroen.svg" },
+    { "id": 8, "brand": "Peugeot", "image": "icons/brands/peugeot.svg" },
+    { "id": 9, "brand": "Chevrolet", "image": "icons/brands/chevrolet.svg" },
+    { "id": 10, "brand": "Porsche", "image": "icons/brands/porsche.svg" },
+    { "id": 11, "brand": "Volkswagen", "image": "icons/brands/volkswagen.svg" },
+    { "id": 12, "brand": "Alfa Romeo", "image": "icons/brands/alfa_romeo.svg" },
+    { "id": 13, "brand": "Mini", "image": "icons/brands/mini.svg" },
+    { "id": 14, "brand": "Dodge", "image": "icons/brands/dodge.svg" },
+    { "id": 15, "brand": "Jeep", "image": "icons/brands/jeep.svg" },
+    { "id": 16, "brand": "Audi", "image": "icons/brands/audi.svg" },
+    { "id": 17, "brand": "BMW", "image": "icons/brands/BMW.svg" },
+    { "id": 18, "brand": "Mercedes", "image": "icons/brands/mercedes.svg" }
+  ]
+}

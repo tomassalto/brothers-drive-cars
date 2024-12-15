@@ -1,0 +1,27 @@
+---
+import Image from "astro/components/Image.astro";
+
+const { id, image, price, year, brand } = Astro.props;
+---
+
+<a href=`/comprar-un-auto/detalle`>
+  <div
+    class="w-[256px] shadow-xl bg-dark_gray_3 rounded-[10px] pt-[10px] pb-[15px] px-[10px] xs:w-[300px] xs:h-[213px] sm:w-[270px] md:w-[310px] lg:w-[280px] fullhd:w-[380px] fullhd:h-[264px]"
+  >
+    <Image
+      src={image}
+      alt="car stock"
+      width="100"
+      height="100"
+      class="w-full h-max pb-2"
+    />
+    <p class="text-white text-base font-medium fullhd:text-2xl">{price}</p>
+    <span
+      class="text-gray text-xs font-thin pt-2 fullhd:tracking-tight fullhd:font-medium fullhd:text-base"
+      >{year}</span
+    >
+    <p class="text-white text-xs font-semibold tracking-wide fullhd:text-base">
+      {brand}
+    </p>
+  </div>
+</a>

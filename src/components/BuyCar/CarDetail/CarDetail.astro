@@ -1,0 +1,19 @@
+---
+import DetailCard from "../../Custom/Buy/DetailCard.jsx";
+import InfoDropdown from "../../Custom/InfoDropdown";
+import CarGallery from "../../Custom/CarGallery.jsx";
+---
+
+<section
+  class="flex flex-col items-center bg-[url(/icons/backgrounds/mobile_forlife_background.svg)] sm:bg-[url(/icons/backgrounds/forlife_background.svg)] bg-cover bg-no-repeat bg-dark_gray"
+>
+  <div class="pb-6 lg:pb-[27px]">
+    <DetailCard client:visible />
+  </div>
+  <div class="pb-6 lg:hidden">
+    <InfoDropdown client:visible />
+  </div>
+  <div id="root" class="pb-20">
+    <CarGallery client:load />
+  </div>
+</section>

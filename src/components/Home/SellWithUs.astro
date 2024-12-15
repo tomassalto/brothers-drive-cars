@@ -1,0 +1,55 @@
+---
+import Button from "../Custom/Button.jsx";
+import Card from "../Custom/Card.astro";
+import { card_sell_with_us } from "../../data/cards_data.json";
+import Title from "../Custom/Title.astro";
+---
+
+<section
+  class="flex justify-center bg-[url(/icons/backgrounds/mobile_dark_background.png)] md:bg-[url(/icons/backgrounds/dark_background.png)] w-full h-full bg-dark_gray md:bg-cover md:bg-center 2k:h-max"
+>
+  <div>
+    <div class="flex flex-col items-center lg:justify-center">
+      <div class="text-center flex flex-col items-center w-full mx-auto">
+        <Title
+          title="¿Por qué `VENDER` con nosotros?"
+          color_text={"white"}
+          size="xl"
+        />
+        <p
+          class="text-[16px] w-[270px] xs:w-[333px] lg:w-[800px] sm:w-[600px] text-pretty opacity-60 text-white p-2"
+        >
+          Somos una empresa joven enfocada fundamentalmente en un servicio
+          distinguido y un<span class="lg:block">
+            asesoramiento destacado a la hora de comprar o vender un vehículo.
+            <span class="font-bold">Algo nunca antes visto.</span></span
+          >
+        </p>
+      </div>
+      <div
+        class="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-4 md:gap-5 gap-8 gap-y-8 lg:gap-8 pt-10 w-max justify-center"
+      >
+        {
+          card_sell_with_us.map((card) => (
+            <Card
+              title={card.title}
+              icon={card.icon}
+              paragraph={card.paragraph}
+              border={card.border}
+              color_text={"white"}
+            />
+          ))
+        }
+      </div>
+      <div
+        class="sm:pt-[108px] pt-[100px] sm:pb-[135px] pb-[100px] flex justify-center w-full md:w-full"
+      >
+        <Button
+          text="Cotizar mi auto"
+          isGlowy={true}
+          href={"/cotizar-mi-auto"}
+        />
+      </div>
+    </div>
+  </div>
+</section>

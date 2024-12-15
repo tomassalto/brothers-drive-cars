@@ -1,0 +1,27 @@
+---
+import { brands } from "../../data/brands_data.json";
+---
+
+<div
+  class="flex flex-col gap-y-5 pb-[100px] sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-10 sm:gap-x-5 md:pb[104px] xl:grid-cols-4 hd:grid-cols-5 fullhd:grid-cols-6"
+>
+  {
+    brands.map((brand) => (
+      <div class="flex flex-row items-center justify-center gap-3 border border-gray rounded-[10px] px-8 py-4 w-[260px] h-[60px] sm:h-[80px] fullhd:w-[275px] hover:border-hidden brand-container">
+        <img src={brand.image} alt={brand.brand} />
+        <p class="text-white text-[22px]">{brand.brand}</p>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .brand-container:hover {
+    background: linear-gradient(
+      #a49c4c -15%,
+      #caa962 35.78%,
+      #bf953f 92.17%,
+      #988001 118.43%
+    );
+  }
+</style>

@@ -1,0 +1,22 @@
+---
+const { color_text, title, size } = Astro.props;
+const segments = title.split("`");
+---
+
+<h1
+  class=`${color_text === 'white' ? 'text-white' : 'text-medium_gray'} ${size === 'xl' && 'w-[300px] sm:w-[500px]'} ${size === '2xl' && 'w-[300px] xs:w-[340px] sm:w-[560px] sm:pt-[212px]'} lg:w-full text-[25px] xs:text-[32px] sm:text-5xl font-bold sm:pb-6 pb-4 sm:pt-44 pt-[100px] md:px-4 `
+>
+  {
+    segments.map((segment, index) => (
+      <span
+        class={
+          index % 2 === 1
+            ? "text-gold font-orbitron text-[26px] text-3xl sm:text-5xl"
+            : ""
+        }
+      >
+        {segment}
+      </span>
+    ))
+  }
+</h1>

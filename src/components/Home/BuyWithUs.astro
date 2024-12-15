@@ -1,0 +1,58 @@
+---
+import Button from "../Custom/Button.jsx";
+import Card from "../Custom/Card.astro";
+import { card_buy_with_us } from "../../data/cards_data.json";
+import Title from "../Custom/Title.astro";
+---
+
+<section class="flex justify-center bg-white w-full h-full relative 2k:h-max">
+  <img
+    class="hidden lg:block absolute md:w-full hd:w-screen top-[20px] lg:h-[1080px] 2k:hidden"
+    src="/icons/backgrounds/cubes.svg"
+    alt="cubes_desktop-bg"
+  />
+  <img
+    class="block lg:hidden absolute top-[500px] w-full max-h-[600px]"
+    src="/icons/backgrounds/mobile_cubes.svg"
+    alt="cubes_mobile-bg"
+  />
+
+  <div class="flex flex-col items-center lg:justify-center px-4 w-full">
+    <div
+      class="text-center flex flex-col justify-center items-center w-full mx-auto"
+    >
+      <Title
+        title="¿Por qué `COMPRAR` con nosotros?"
+        color_text={"black"}
+        size="2xl"
+      />
+      <p
+        class="text-[16px] w-64 xs:w-[250px] md:w-full text-medium_gray font-bold p-2"
+      >
+        Tenemos las mejores unidades seleccionadas del mercado.
+      </p>
+    </div>
+    <div
+      class="z-10 grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-4 md:gap-5 gap-8 gap-y-8 lg:gap-8 pt-10 w-max justify-center"
+    >
+      {
+        card_buy_with_us.map((card) => (
+          <Card
+            title={card.title}
+            icon={card.icon}
+            paragraph={card.paragraph}
+            border={card.border}
+            color_text={"black"}
+          />
+        ))
+      }
+    </div>
+    <div class="sm:pt-[96px] pt-[93px] sm:pb-[135px] pb-[98px] z-10">
+      <Button
+        text="Comprar un auto"
+        isGlowy={false}
+        href={"/comprar-un-auto"}
+      />
+    </div>
+  </div>
+</section>

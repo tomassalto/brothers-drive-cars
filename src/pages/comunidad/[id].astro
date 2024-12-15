@@ -1,0 +1,12 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Detail from "../../components/ForLife/Detail.astro";
+import { image_gallery } from "../../data/gallery_data.json";
+
+const { id } = Astro.params;
+const selectedImage = image_gallery.find((img) => img.id === id);
+---
+
+<Layout title="For Life - Comunidad">
+  <Detail selectedImage={selectedImage} id={id} />
+</Layout>

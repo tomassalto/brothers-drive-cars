@@ -1,0 +1,22 @@
+{
+    "brands": [
+      { "value": "ford", "label": "Ford" },
+      { "value": "hyundai", "label": "Hyundai" },
+      { "value": "nissan", "label": "Nissan" },
+      { "value": "toyota", "label": "Toyota" },
+      { "value": "fiat", "label": "Fiat" },
+      { "value": "renault", "label": "Renault" },
+      { "value": "citroen", "label": "Citroen" },
+      { "value": "peugeot", "label": "Peugeot" },
+      { "value": "chevrolet", "label": "Chevrolet" },
+      { "value": "porsche", "label": "Porsche" },
+      { "value": "volkswagen", "label": "Volkswagen" },
+      { "value": "alfa_romeo", "label": "Alfa Romeo" },
+      { "value": "mini", "label": "Mini" },
+      { "value": "dodge", "label": "Dodge" },
+      { "value": "jeep", "label": "Jeep" },
+      { "value": "audi", "label": "Audi" },
+      { "value": "bmw", "label": "BMW" },
+      { "value": "mercedes", "label": "Mercedes" }
+    ]
+  }

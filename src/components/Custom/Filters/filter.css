@@ -1,0 +1,12 @@
+.filter-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-gradient:focus {
+  background: linear-gradient(
+    #a49c4c -15%,
+    #caa962 35.78%,
+    #bf953f 92.17%,
+    #988001 118.43%
+  );
+}

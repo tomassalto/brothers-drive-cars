@@ -1,0 +1,60 @@
+{
+    "stock": [
+        {
+          "id": 1,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        },
+        {
+          "id": 2,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        },
+        {
+          "id": 3,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        },
+        {
+          "id": 4,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        },
+        {
+          "id": 5,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        },
+        {
+          "id": 6,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        },
+        {
+          "id": 7,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        },
+        {
+          "id": 8,
+          "image": "/images/buy-car/image_1.png",
+          "price": "US$ 26.000",
+          "year": "2023 - 5.600KM",
+          "brand": "PEUGEOT 208 1.6 FELINE TIPTRONIC"
+        }
+      ]
+}

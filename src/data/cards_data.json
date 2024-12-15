@@ -1,0 +1,90 @@
+{
+  "card_sell_with_us": [
+    {
+      "id": 1,
+      "title": "Valor Real",
+      "icon": "/icons/cards/car.svg",
+      "paragraph": "El valor de tu auto lo pones vos. `No cobramos comisiones.`",
+      "border": "gold"
+    },
+    {
+      "id": 2,
+      "title": "Exposición Real",
+      "icon": "/icons/cards/screen.svg",
+      "paragraph": "Lo exhibimos en `todos` nuestros canales de ventas. (+20.000 Seguidores)",
+      "border": "gold"
+    },
+    {
+      "id": 3,
+      "title": "Contenido Real",
+      "icon": "/icons/cards/gallery.svg",
+      "paragraph": "Te ofrecemos 15 fotos de la mejor calidad y un `video editado de regalo`",
+      "border": "gold"
+    },
+    {
+      "id": 4,
+      "title": "Hasta el final",
+      "icon": "/icons/cards/coins.svg",
+      "paragraph": "Nos ocupamos de venderlo `sin que lo dejes de usar`.",
+      "border": "gray"
+    },
+    {
+      "id": 5,
+      "title": "Gestoría propia",
+      "icon": "/icons/cards/hands.svg",
+      "paragraph": "Contamos con gestoría propia. `El vehículo se va si o si transferido`.",
+      "border": "gray"
+    },
+    {
+      "id": 6,
+      "title": "Nos encargamos",
+      "icon": "/icons/cards/user.svg",
+      "paragraph": "Finaciamos, permutamos, nos ocupamos de todo; `tu tiempo es valioso!`",
+      "border": "gray"
+    }
+  ],
+  "card_buy_with_us": [
+    {
+      "id": 1,
+      "title": "Calidad garantizada",
+      "icon": "/icons/cards/guarantee.svg",
+      "paragraph": "Ofrecemos únicamente `lo mejor del mercado.`",
+      "border": "gold"
+    },
+    {
+      "id": 2,
+      "title": "Servicio Post-venta",
+      "icon": "/icons/cards/car_service.svg",
+      "paragraph": "Nuestras unidades son inspeccionadas por `técnicos especializados`.",
+      "border": "gold"
+    },
+    {
+      "id": 3,
+      "title": "Exclusividad",
+      "icon": "/icons/cards/help_desk.svg",
+      "paragraph": "Asesoramiento especializado, atención distinguida,`ventas al interior`.",
+      "border": "gold"
+    },
+    {
+      "id": 4,
+      "title": "Impecable estado",
+      "icon": "/icons/cards/clean_car.svg",
+      "paragraph": "Todas nuestras unidades reciben tratamiento `estético y limpieza de interior`.",
+      "border": "gray"
+    },
+    {
+      "id": 5,
+      "title": "Solo para vos",
+      "icon": "/icons/cards/custom_service.svg",
+      "paragraph": "Servicio de venta a pedido. Si no lo tememos en stock `lo conseguimos a pedido`.",
+      "border": "gray"
+    },
+    {
+      "id": 6,
+      "title": "Asesoramiento",
+      "icon": "/icons/cards/car_management.svg",
+      "paragraph": "Te facilitamos a reunir la documentación de `tu vehículo en parte de pago`.",
+      "border": "gray"
+    }
+  ]
+}

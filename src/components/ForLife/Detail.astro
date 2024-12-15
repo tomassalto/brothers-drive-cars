@@ -1,0 +1,48 @@
+---
+import Gallery from "../../components/Custom/Gallery.astro";
+
+const { selectedImage, id } = Astro.props;
+---
+
+<section
+  class="bg-[url(/icons/backgrounds/mobile_forlife_background.svg)] sm:bg-[url(/icons/backgrounds/forlife_background.svg)] bg-cover bg-no-repeat bg-dark_gray px-4 xs:px-8 xsm:px-14 flex flex-col items-center pt-8 sm:pt-16 pb-20"
+>
+  <div class="self-start pt-[80px] mac:pt-[100px]">
+    <a href="/for-life">
+      <img
+        src="/icons/chevron_left.svg"
+        alt="chevronLeft"
+        class="pb-[23px] md:w-8 hd:w-10"
+      />
+    </a>
+  </div>
+  {
+    selectedImage && (
+      <>
+        <div class="flex flex-col items-center text-center ">
+          <h1 class="text-2xl text-white font-normal font-orbitron pb-6 xs:text-[32px] md:text-[40px] lg:pb-10 lg:text-5xl mac:text-[56px]">
+            {selectedImage.name}
+          </h1>
+          <div class="relative">
+            <img
+              src={selectedImage.image}
+              alt={selectedImage.name}
+              class="rounded-[10px] object-cover w-[280px] xsm:w-[328px] sm:w-[524px]"
+            />
+          </div>
+        </div>
+        <div class="w-full flex flex-col items-center pt-6">
+          <h2 class="text-base font-normal text-light_gray_2 pb-16 sm:text-[24px] lg:pb-[115px] lg:text-[28px] mac:text-[32px]">
+            ¡Muchas gracias por elegirnos!
+          </h2>
+          <div>
+            <p class="flex text-xl font-bold text-light_gray_2 pb-6 justify-start lg:justify-center lg:text-2xl xl:text-[28px] xl:pb-8 mac:text-[32px] hd:pb-10">
+              Más comunidad
+            </p>
+            <Gallery excludeId={id} />
+          </div>
+        </div>
+      </>
+    )
+  }
+</section>

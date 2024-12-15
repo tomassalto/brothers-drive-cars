@@ -1,0 +1,34 @@
+---
+const { title, icon, paragraph, border, color_text } = Astro.props;
+const words = title.split(" ");
+const segments = paragraph.split("`");
+---
+
+<div
+  class={`${color_text === "white" ? "" : "bg-white"} p-6 text-left rounded border w-[280px] xs:w-[350px]  md:w-[350px] sm:w-[250px] h-48 ${border === "gold" ? "border-gold" : "border-gray"}`}
+>
+  <img class="lg:mb-4 mb-2" src={icon} alt={title} />
+  <h1
+    class=`${color_text === 'white' ? 'text-white' : 'text-medium_gray'} xs:text-xl md:text-xl lg:text-[28px] font-bold pb-3`
+  >
+    {
+      words.map((word, index) => (
+        <span
+          class={word.toLowerCase() === "real" ? "text-gold font-orbitron" : ""}
+        >
+          {word}
+          {index < words.length - 1 ? " " : ""}
+        </span>
+      ))
+    }
+  </h1>
+  <p
+    class=`${color_text === 'white' ? 'text-white' : 'text-medium_gray'} xs:text-[14px] sm:text-[15px] text-xs opacity-60 py-1 font-normal-400"`
+  >
+    {
+      segments.map((segment, index) => (
+        <span class={index % 2 === 1 ? "font-bold" : ""}>{segment}</span>
+      ))
+    }
+  </p>
+</div>

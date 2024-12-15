@@ -1,0 +1,36 @@
+{
+  "car_detail": [
+    {
+      "id": 1,
+      "image": "/images/buy-car/detail/image_1.png"
+    },
+    {
+      "id": 2,
+      "image": "/images/buy-car/detail/image_2.png"
+    },
+    {
+      "id": 3,
+      "image": "/images/buy-car/detail/image_3.png"
+    },
+    {
+      "id": 4,
+      "image": "/images/buy-car/detail/image_4.png"
+    },
+    {
+      "id": 5,
+      "image": "/images/buy-car/detail/image_5.png"
+    },
+    {
+      "id": 6,
+      "image": "/images/buy-car/detail/image_6.png"
+    },
+    {
+      "id": 7,
+      "image": "/images/buy-car/detail/image_7.png"
+    },
+    {
+      "id": 8,
+      "image": "/images/buy-car/detail/image_8.png"
+    }
+  ]
+}

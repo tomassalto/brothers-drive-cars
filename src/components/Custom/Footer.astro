@@ -1,0 +1,92 @@
+---
+import { Image } from "astro:assets";
+---
+
+<footer
+  class="flex flex-col items-center justify-center bg-black w-full sm:h-max"
+>
+  <div
+    class="lg:flex lg:gap-x-16 lg:pt-20 xl:self-start xl:pl-[70px] xl:gap-x-[124px] 2k:self-center"
+  >
+    <div class="pt-32 lg:pt-0">
+      <Image
+        src="/logo.png"
+        alt="logo"
+        width="200"
+        height="200"
+        class="mac:w-[320px]"
+      />
+      <p class="font-semibold text-gray py-6">Suscribite al newsletter</p>
+      <div class="relative">
+        <input
+          type="text"
+          placeholder="Ingresa tu email..."
+          class="text-white placeholder:text-white border-2 border-gray bg-dark_gray rounded-full py-2 pl-4 placeholder:text-sm"
+        />
+        <button>
+          <img
+            src="/icons/send.svg"
+            alt="send icon"
+            class="absolute right-14 top-[10px] sm:right-[390px] md:right-[420px] lg:right-4 mac:right-24 fullhd:right-[100px]"
+          />
+        </button>
+      </div>
+      <div class="flex flex-col pt-6 gap-1">
+        <p class="text-gray text-xs font-semibold">
+          Argentina, Buenos Aires - Ituzaingó.
+        </p>
+        <p class="text-gray text-xs font-semibold">
+          Lunes a Sábado - 10:00hs a 20:00hs.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="pt-5 sm:pt-12 sm:grid sm:grid-cols-2 sm:gap-x-16 md:gap-x-24 lg:pt-0 lg:flex lg:gap-x-8 xl:gap-x-16 mac:gap-x-24 hd:gap-x-[124px]"
+    >
+      <div class="flex flex-col gap-6 py-5 lg:pt-0 lg:text-sm">
+        <p class="font-bold text-white">Servicios</p>
+        <a
+          href="/comprar-un-auto"
+          class="text-gray font-bold lg:hover:text-gold">Comprar un auto</a
+        >
+        <a
+          href="/cotizar-mi-auto"
+          class="text-gray font-bold lg:hover:text-gold">Cotizar mi auto</a
+        >
+      </div>
+      <div class="flex flex-col gap-6 py-5 lg:pt-0 lg:text-sm">
+        <p class="font-bold text-white">Conocenos un poco más</p>
+        <a href="/somos-brothers" class="text-gray font-bold lg:hover:text-gold"
+          >Somos Brothers</a
+        >
+        <a href="/for-life" class="text-gray font-bold lg:hover:text-gold"
+          >For Life</a
+        >
+      </div>
+      <div class="flex flex-col gap-6 py-5 lg:pt-0 lg:text-sm">
+        <p class="font-bold text-white">Contactanos</p>
+        <p class="text-gray font-bold">brothersdrivecars@gmail.com</p>
+        <p class="text-gray font-bold">Whatsapp: 011 6024-6355</p>
+      </div>
+      <div class="flex flex-col gap-6 pt-5 pb-16 lg:pt-0 lg:text-sm lg:pb-32">
+        <p class="font-bold text-white">Seguinos en</p>
+        <a
+          href="https://www.instagram.com/brothersdrivecars/"
+          target="_blank"
+          class="text-gray font-bold lg:hover:text-gold">Instagram</a
+        >
+        <a
+          href="https://www.facebook.com/BrothersDriveCars/"
+          target="_blank"
+          class="text-gray font-bold lg:hover:text-gold">Facebook</a
+        >
+        <a
+          href="https://www.youtube.com/channel/UC7yaS4Ze5AIiXAZP6PnnY9g"
+          target="_blank"
+          class="text-gray font-bold lg:hover:text-gold">Youtube</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>

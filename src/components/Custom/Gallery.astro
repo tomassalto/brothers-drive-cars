@@ -1,0 +1,39 @@
+---
+import { image_gallery } from "../../data/gallery_data.json";
+
+const { excludeId } = Astro.props;
+
+const filteredImages = excludeId
+  ? image_gallery.filter((img) => img.id !== excludeId)
+  : image_gallery;
+---
+
+<div class="flex justify-center w-full">
+  <div
+    class="flex flex-col gap-4 sm:grid sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 mac:gap-8"
+  >
+    {
+      filteredImages.map((img) => (
+        <a href={`/comunidad/${img.id}`}>
+          <div class="relative">
+            <img
+              src={img.image}
+              alt={img.name}
+              class="mb-2 rounded-[10px] object-cover w-[280px] xsm:w-[328px] sm:w-[250px] lg:w-[260px] xl:w-[300px] mac:w-[328px] fullhd:w-[360px]"
+            />
+            <p class="z-10 text-center font-orbitron text-white text-sm absolute bottom-4 left-4 xl:text-lg fullhd:text-2xl">
+              {img.name}
+            </p>
+            <div
+              style={{
+                background:
+                  "linear-gradient(180deg, rgba(34, 34, 34, 0.00) 0%, #121212 100%)",
+              }}
+              class="absolute inset-0 w-full"
+            />
+          </div>
+        </a>
+      ))
+    }
+  </div>
+</div>

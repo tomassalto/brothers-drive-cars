@@ -1,0 +1,39 @@
+{
+  "image_gallery": [
+    {
+      "id": "david-martinez",
+      "image": "/images/for-life/image_1.jpg",
+      "name": "David Martinez"
+    },
+    {
+      "id": "lucas-gomez",
+      "image": "/images/for-life/image_4.jpg",
+      "name": "Lucas Gomez"
+    },
+    {
+      "id": "daniel-medina",
+      "image": "/images/for-life/image_7.jpg",
+      "name": "Daniel Medina"
+    },
+    {
+      "id": "oscar-flores",
+      "image": "/images/for-life/image_3.jpg",
+      "name": "Oscar Flores"
+    },
+    {
+      "id": "victor-ayala",
+      "image": "/images/for-life/image_5.jpg",
+      "name": "Victor Ayala"
+    },
+    {
+      "id": "gonzalo-torres",
+      "image": "/images/for-life/image_2.jpg",
+      "name": "Gonzalo Torres"
+    },
+    {
+      "id": "cristian-ferreira",
+      "image": "/images/for-life/image_6.jpg",
+      "name": "Cristian Ferreira"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+.slick-slide > div {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.slick-arrow {
+  background-color: transparent;
+}
+
+.slick-dots li button:before {
+  color: #bf953f !important;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.slick-dots {
+  position: absolute;
+  gap: 24px;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-prev,
+.slick-next {
+  top: 1px;
+  z-index: 1;
+  width: max-content !important;
+}
+
+ul.slick-dots {
+  display: flex !important;
+  justify-content: center;
+
+  top: -10px;
+}
+
+.slick-prev {
+  top: 1px;
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+@media only screen and (min-width: 390px) {
+  .slick-dots {
+    gap: 44px;
+  }
+  .slick-dots li button:before {
+    font-size: 28px;
+    line-height: 23px;
+  }
+}
